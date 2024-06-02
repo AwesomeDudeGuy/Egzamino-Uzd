@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp2.Forced"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Egzamino užduotis" Height="156" Width="400"
+        ResizeMode="NoResize">
+    <Grid>
+        <Label Name="TruePass" FontSize="14" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Width="168" Visibility="Hidden"/>
+        
+        
+        <Button Content="Start" FontSize="18" Name="Start"
+                HorizontalAlignment="Left" Margin="284,89,0,0" VerticalAlignment="Top" Height="28" Width="90"
+                Click="Start_Click"
+                />
+
+        <TextBlock HorizontalAlignment="Center" FontSize="20" Margin="0,22,0,0" TextWrapping="Wrap" Text="Press Start to start deducing the password." VerticalAlignment="Top" Height="67" Width="318"/>
+
+
+
+
+    </Grid>
+</Window>
